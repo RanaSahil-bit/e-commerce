@@ -1,0 +1,32 @@
+.title{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: unset;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 16px;
+}
+
+.price{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.shipping{
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.mainCard:hover{
+    scale: 105%;
+    animation: card_scale 0.5s forwards;
+}
+
+@keyframes card_scale {
+    from{
+        scale: 100%;
+    }
+    to{
+        scale: 105%;
+    }
+}
